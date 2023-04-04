@@ -1,3 +1,4 @@
-class ApplicationRecord < ActiveRecord::Base
-  self.abstract_class = true
+class ApplicationController < ActionController::API
+  include ActionController::Cookies
+
 end
